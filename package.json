@@ -1,8 +1,9 @@
 {
-    "name": "ger",
-    "description": "Good Enough Recommendations (GER) is a collaborative filtering based recommendations engine built to be easy to use and integrate into your application.",
-    "url": "https://github.com/grahamjenson/ger.git",
+    "name": "ger-2017",
+    "description": "A copy of the Good Enough Recommendations (GER) is a collaborative filtering based recommendations engine built to be easy to use and integrate into your application.",
+    "url": "https://github.com/scr1p7ed/ger.git",
     "keywords": [
+        "2017",
         "recommend",
         "recommended",
         "recommendation",
@@ -14,11 +15,12 @@
     "author": "Graham Jenson <grahamjenson@maori.geek.nz>",
     "dependencies": {
         "bluebird": "2.9.25",
-        "knex": "0.12.6",
-        "pg": "4.3.0",
+        "coffee-script": "1.9.3",
+        "knex": "0.13.0",
         "lodash": "3.9.3",
         "moment": "2.17.1",
-        "coffee-script": "1.9.3"
+        "node-uuid": "^1.4.8",
+        "pg": "7.3.0"
     },
     "devDependencies": {
         "mocha": "1.18.2",
